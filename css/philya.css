@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap');
+
+
+
+body {
+    /*font-family: 'Noto Serif', serif;*/
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    color: #fa744f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio_item {
+
+    display: flex;
+    
+}
+
+.item_details {
+    padding-left: 40px;
+}
+
+
+
+@media (orientation: portrait) {
+    .portfolio_item {
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .item_details {
+        padding-left: 0px;
+    }
+
+}
+
+.hero {
+    padding-top: 70px;
+}
+
+.hero_name {
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+}
+
+.portfolio_item {
+    padding-top: 70px;
+}
+
+
+.item_title {
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 2.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.field_name {
+    /*font-weight: bold;*/
+    font-style:italic;
+}
